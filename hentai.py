@@ -4,7 +4,7 @@ import os
 import time
 from PIL import Image
 if os.name == 'nt':
-    slash = '\\'
+    slash = '\'
 elif os.name == 'posix':
     slash = '/'
 slace = slice(4)
